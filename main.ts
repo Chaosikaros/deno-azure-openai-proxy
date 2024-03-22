@@ -11,6 +11,8 @@ const mapper:any = {
   'gpt-3.5-turbo-16k': Deno.env.get("DEPLOY_NAME_GPT35_16k"),
   'gpt-4': Deno.env.get("DEPLOY_NAME_GPT4"),
   'gpt-4-32k': Deno.env.get("DEPLOY_NAME_GPT4_32k"),
+  'dall-e-3': Deno.env.get("DEPLOY_NAME_DALLE3"),
+  'dall-e-2': Deno.env.get("DEPLOY_NAME_DALLE2")
   // Other mapping rules can be added here.
 };
 
